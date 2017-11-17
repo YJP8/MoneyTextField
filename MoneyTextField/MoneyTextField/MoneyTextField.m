@@ -1,16 +1,16 @@
 //
-//  inputTextField.m
-//  inputView
+//  MoneyTextField.m
+//  MoneyTextField
 //
-//  Created by Levante on 2017/11/8.
+//  Created by Levante on 2017/11/17.
 //  Copyright © 2017年 Levante. All rights reserved.
 //
 
-#import "inputTextField.h"
+#import "MoneyTextField.h"
 #define myDotNumbers     @"0123456789.\n"
 #define myNumbers          @"0123456789\n"
 
-@implementation inputTextField
+@implementation MoneyTextField
 
 - (instancetype)init {
     self = [super init];
@@ -28,12 +28,13 @@
     self.delegate = self;
 }
 
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     // 判断是否输入内容，或者用户点击的是键盘的删除按钮
     if (![string isEqualToString:@""]) {
         NSCharacterSet *cs;
         // 小数点在字符串中的位置 第一个数字从0位置开始
-    
+        
         NSInteger dotLocation = [textField.text rangeOfString:@"."].location;
         // 判断字符串中是否有小数点，并且小数点不在第一位
         // NSNotFound 表示请求操作的某个内容或者item没有发现，或者不存在
@@ -68,8 +69,4 @@
     }
     return YES;
 }
-
-
-
 @end
-

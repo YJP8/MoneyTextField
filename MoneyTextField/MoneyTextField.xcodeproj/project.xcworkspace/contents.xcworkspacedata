@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:inputView.xcodeproj">
+      location = "self:MoneyTextField.xcodeproj">
    </FileRef>
 </Workspace>

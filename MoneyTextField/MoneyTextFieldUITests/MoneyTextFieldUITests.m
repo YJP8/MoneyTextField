@@ -1,18 +1,18 @@
 //
-//  inputViewUITests.m
-//  inputViewUITests
+//  MoneyTextFieldUITests.m
+//  MoneyTextFieldUITests
 //
-//  Created by Levante on 2017/11/8.
+//  Created by Levante on 2017/11/17.
 //  Copyright © 2017年 Levante. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface inputViewUITests : XCTestCase
+@interface MoneyTextFieldUITests : XCTestCase
 
 @end
 
-@implementation inputViewUITests
+@implementation MoneyTextFieldUITests
 
 - (void)setUp {
     [super setUp];
