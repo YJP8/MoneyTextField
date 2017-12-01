@@ -24,6 +24,7 @@
     _textField.placeholder = @"请输入金额";
     _textField.borderStyle = UITextBorderStyleBezel;
     [self.view addSubview:_textField];
+
 }
 
 @end

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MoneyTextField : UITextField <UITextFieldDelegate>
+@property (nonatomic, assign) BOOL isHaveDian;
 
+@property (nonatomic, assign) BOOL isFirstZero;
 @end
