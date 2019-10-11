@@ -12,4 +12,11 @@
 @property (nonatomic, assign) BOOL isHaveDian;
 
 @property (nonatomic, assign) BOOL isFirstZero;
+
+/// 小数点前面位数
+@property (nonatomic, assign) NSInteger frontDecimal;
+/**
+ 保留几位小数
+ */
+@property (nonatomic, assign) NSInteger theDecimal;
 @end

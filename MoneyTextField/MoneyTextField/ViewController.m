@@ -22,6 +22,8 @@
     _textField = [[MoneyTextField alloc] init];
     _textField.frame = CGRectMake(120, 150, 150, 25);
     _textField.placeholder = @"请输入金额";
+    _textField.theDecimal = 2;
+    _textField.frontDecimal = 5;
     _textField.borderStyle = UITextBorderStyleBezel;
     [self.view addSubview:_textField];
 
