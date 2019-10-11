@@ -64,7 +64,7 @@
                        return NO;
                    }
                }else {
-                   cs = [[NSCharacterSet characterSetWithCharactersInString:myDotNumbers] invertedSet];
+                   cs = [[NSCharacterSet characterSetWithCharactersInString:myNumbers] invertedSet];
                }
                // 按cs分离出数组,数组按@""分离出字符串
                NSString *filtered = [[string componentsSeparatedByCharactersInSet:cs] componentsJoinedByString:@""];
